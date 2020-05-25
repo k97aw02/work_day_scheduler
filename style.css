@@ -1,0 +1,80 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  textarea{
+    background: transparent;
+    border: 1px solid black;
+    resize: none;
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+
+  table { 
+      width: 90%;
+      margin: 0 auto; 
+    }
+  table td { 
+      width: 15%;
+      height: 30px; 
+    }
+  table td:nth-of-type(2) {
+    width: 70%; 
+    }
+      
+  header {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+
+  tr td:nth-of-type(1) {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 15px;
+  }
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  .past td:nth-of-type(2){
+    background-color: #d3d3d3;
+    color: white;
+  }
+  
+  .present td:nth-of-type(2){
+    background-color: #ff6961;
+    color: white;
+  }
+  
+  .future td:nth-of-type(2){
+    background-color: #77dd77;
+    color: white;
+  }
+  
+  button {
+    width: 70px;
+    height: 70px;
+    padding: 1%;
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+  }
+  
+  button i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
